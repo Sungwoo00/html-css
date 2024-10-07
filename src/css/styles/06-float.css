@@ -11,7 +11,7 @@
   border: 1px solid currentColor;
   display: flow-root;
   /* display: flow-root의 효과를 가지는 트릭 
-    화면을 넘어가면 짤리는 부작용*/
+    화면을 넘어가면 짤리는 부작용이 있을 수 있음*/
   /* overflow: hidden; */
 }
 div .box1 {
