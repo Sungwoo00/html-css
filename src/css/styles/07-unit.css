@@ -41,6 +41,16 @@ body {
   font-size: 3vw;
 }
 
+/* number 단위 */
+.unit-number {
+  font-size: 10px;
+  line-height: 100%;
+
+  p {
+    font-size: 20px;
+  }
+}
+
 /* CSS의 색상값 */
 .unit-color-name {
   color: darkgreen;
