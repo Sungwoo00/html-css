@@ -1,9 +1,30 @@
 @import './../../common/mordern-reset.css';
 
-div {
+div:not(#awebChromeHelper) {
   font-size: 3rem;
   border: 1px solid currentColor;
   padding: 10px;
+}
+
+/* 요소 박스 위치 지정 (percentage value) */
+/* content-box: margin + border + padding + content */
+/* border-box: margin + width(border + padding) */
+
+.percent-value {
+  border: 1px solid currentColor;
+  padding: 1em !important;
+  margin: 1em !important;
+  font-size: 1em !important;
+
+  p {
+    padding: 20%;
+    margin: 0;
+    border: inherit;
+    position: relative;
+    left: 50%;
+    inset-inline-start: 50%;
+    background-color: tomato;
+  }
 }
 
 .static {
