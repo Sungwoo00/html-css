@@ -84,10 +84,6 @@ select {
       flex: 1;
     }
 
-    input {
-      outline: none;
-    }
-
     button {
       flex: 0 0 auto;
     }
