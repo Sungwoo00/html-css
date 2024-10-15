@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Sprites |Techit</title>
+    <link rel="preload" as="style" href="./../assets/font/notoserif/notoserif.css" />
+    <link rel="stylesheet" href="./../assets/font/notoserif/notoserif.css" />
+    <link rel="preload" as="style" href="./../assets/font/pretendard/pretendardvariable-dynamic-subset.css" />
+    <link rel="stylesheet" href="./../assets/font/pretendard/pretendardvariable-dynamic-subset.css" />
+
+    <link rel="stylesheet" href="./styles/16-sprites.css" />
+  </head>
+  <body>
+    <h1>CSS Sprites</h1>
+    <h2>비트맵 이미지</h2>
+    <ul class="sns-list">
+      <li><a href="" class="sns facebook"></a></li>
+      <li><a href="" class="sns instagram"></a></li>
+      <li><a href="" class="sns youtube"></a></li>
+    </ul>
+
+    <h2>벡터 이미지</h2>
+    <ul class="icon-list">
+      <li>
+        <a href="/">
+          <svg role="img" class="svg-icon" viewBox="0 0 24 24">
+            <use href="./../assets/sprite/icons.svg#triangle" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="/">
+          <svg role="img" class="svg-icon" viewBox="0 0 24 24">
+            <use href="./../assets/sprite/icons.svg#arrow" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="/">
+          <svg role="img" class="svg-icon" viewBox="0 0 24 24">
+            <use href="./../assets/sprite/icons.svg#global" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <div class="svg-container">
+      <svg role="img" class="svg-icon" viewBox="0 0 24 24">
+        <use href="./../assets/svg/shape/_sprite.svg#circle" />
+      </svg>
+    </div>
+    <div class="svg-container">
+      <svg role="img" class="svg-icon" viewBox="0 0 100 100">
+        <use href="./../assets/svg/shape/_sprite.svg#star" />
+      </svg>
+    </div>
+    <div class="svg-container">
+      <svg role="img" class="svg-icon" viewBox="0 0 135 135">
+        <use href="./../assets/svg/shape/_sprite.svg#sun" />
+      </svg>
+    </div>
+  </body>
+</html>
