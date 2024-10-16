@@ -4,15 +4,15 @@
 }
 
 :focus-visible {
-  box-shadow: 0 0 2px 2px #03cc5c;
+  box-shadow: 0 0 2px 2px rgb(224, 86, 86, 0.85);
   border-radius: 4px;
 }
 
-:is(input[type='email'], input[type='password'], input[type='text']):focus-visible {
+input:is([type='email'], [type='password'], [type='text'], [type='search']):focus-visible {
   box-shadow: none;
 }
 
-/* 숨김 컨텐츠 */
+/* 숨김 콘텐츠 */
 .sr-only {
   position: absolute;
   width: 1px;
