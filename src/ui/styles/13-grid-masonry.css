@@ -20,6 +20,7 @@
     inset-inline: 1rem;
     inset-block-end: 1rem;
     white-space: nowrap;
+    /* 포인터로 인한 이벤트 제거 */
     pointer-events: none;
   }
 }
