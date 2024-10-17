@@ -1,6 +1,26 @@
 @import './../../common/modern-reset.css';
 @import './../../common/base.css';
 
+/* @media (prefers-color-scheme: dark) {
+  body {
+    color: var(--white);
+    background-color: var(--gray);
+  }
+} */
+
+:root {
+  color-scheme: light dark;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  color: light-dark(var(--gray), var(--white));
+  background-color: light-dark(var(--white), var(--gray));
+}
+
 h1,
 p {
   line-height: 1.5;
@@ -27,10 +47,13 @@ p:not(.card__description) {
   background-color: var(--light-silver);
   padding: 1rem;
   gap: 1rem;
+  color: light-dark(var(--white), var(--gray));
+  background-color: light-dark(var(--geen), var(--light-silver));
 
   .card__image {
     grid-area: image;
     text-align: center;
+    object-fit: contain;
 
     .card__link {
       text-decoration: none;
